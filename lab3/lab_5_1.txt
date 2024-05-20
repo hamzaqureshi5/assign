@@ -1,0 +1,6 @@
+1. It will delete respective file
+
+2. If bar file does not exist:
+   rm: cannot remove 'bar': No such file or directory
+3. If no argument is provided:
+   rm: missing operand
