@@ -1,0 +1,11 @@
+# Open Terminal
+Ctl + Alt + T
+
+# Step 2: Create a directory
+mkdir MyDirectory
+
+# Step 3: Change to the directory
+cd MyDirectory
+
+# Step 4: Check current working directory
+pwd

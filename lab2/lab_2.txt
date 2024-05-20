@@ -1,0 +1,39 @@
+# Step 1
+cd ~
+pwd # To get present working dir
+
+# Step 2
+cd ~/Desktop
+pwd
+
+# Step 3
+mkdir File1 File2
+
+# Step 4
+echo "This is the first file." > File1/FisrtFile
+
+# Step 5
+echo "This is the second file." > File2/SecondFile
+
+# Step 6
+cat File1/FisrtFile File2/SecondFile
+
+# Step 7
+cat File1/FisrtFile >> File2/SecondFile
+cat File2/SecondFile
+
+# Step 8
+cp File2/SecondFile File1/FisrtFile
+cat File1/FisrtFile
+
+# Step 9
+cp File1/FisrtFile File2/SecondFile
+
+# Step 10
+rm File1/FisrtFile
+
+# Step 11
+ls File1
+
+# Step 12 (Clear Screen)
+clear

@@ -1,0 +1,38 @@
+1: Define a variable x with value 10 and print it on the screen with the variable name and value
+
+x=10
+echo "x = $x"
+
+
+
+Step 2: Define a variable xn with value Ali and print it with the variable name and value
+
+xn="Ali"
+echo "xn = $xn"
+
+
+Step 3: Define two variables x=20 and y=5, then print the multiplication result with the expression
+
+x=20
+y=5
+result=$((x * y))
+
+echo "X = $x"
+echo "Y = $y"
+echo "\$X * \$Y = $result"
+echo "$x * $y = $result"
+
+
+Step 4: Modify the above to store the division of x and y into a variable called z
+
+x=20
+y=5
+result=$((x * y))
+z=$((x / y))
+
+echo "X = $x"
+echo "Y = $y"
+echo "\$X * \$Y = $result"
+echo "$x * $y = $result"
+echo "z = \$X / \$Y = $z"
+echo "$x / $y = $z"

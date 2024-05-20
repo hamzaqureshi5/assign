@@ -1,0 +1,22 @@
+# Step 1
+touch students.txt pstudent.txt fstudents.txt
+
+# Step 2
+echo -e "Alice\nBob\nCharlie\nDavid\nEve" > pstudent.txt
+echo -e "Frank\nGrace\nHeidi\nIvan\nJudy" > fstudents.txt
+
+# Step 3
+mkdir UET
+cp students.txt pstudent.txt fstudents.txt UET/
+
+# Step 4
+cd UET
+(sort pstudent.txt | head -n 5) > students.txt
+(sort fstudents.txt | tail -n 5) >> students.txt
+
+# Step 5
+cat students.txt
+
+# Step 6
+chmod 444 students.txt
+chmod 555 pstudent.txt fstudents.txt
